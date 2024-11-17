@@ -1,0 +1,7 @@
+a = eval(input())
+b = list(a.values())
+c = {key: 0 for key in set(a.values())}
+for i in b:
+    if i in c:
+        c[i] += 1
+print(c)
