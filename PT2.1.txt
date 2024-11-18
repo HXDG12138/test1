@@ -1,0 +1,8 @@
+a = input().split()
+b = 0
+for i in range(0, len(a), 2):
+    if a[i] == 'D':
+        b += int(a[i + 1])
+    else:
+        b -= int(a[i + 1])
+print(b)
