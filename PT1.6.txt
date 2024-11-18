@@ -1,0 +1,4 @@
+a = int(input())
+b = 'PYTHON'
+print(f"{b:*>{a}}")
+print("{:*>{}}".format(b, a))
