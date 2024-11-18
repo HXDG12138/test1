@@ -1,0 +1,3 @@
+a = tuple(input().split(','))
+b = ('red', 'green', 'blue', 'snow', 'white')
+print(dict(zip(a, b)))
